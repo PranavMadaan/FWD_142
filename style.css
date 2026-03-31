@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(180, 202, 202);
+    background-size: cover;
+}
+
+#title{
+    text-align: center;
+}
+
+.navbar{
+    display:flex;
+    list-style:none;
+    background-color: rgb(49, 48, 47);
+    padding:10px;
+    justify-content:center;
+}
+
+.navbar li{
+    margin:15px;
+}
+
+.navbar a{
+    color:white;
+}
+
+.navbar a:hover{
+    color:burlywood;
+}
+
+.intro{
+    padding:10px;
+}
+
+.para{
+    padding:10px;
+    font-size: x-large;
+}
+
+.foot{
+    text-align: center;
+    background-color: rgb(49, 48, 47);
+    color: white;
+}
+
+.recipetitle{
+    text-align: center;
+    text-decoration-color: bisque;
+    padding: 10px;
+}
+
+.row{
+    display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 10px;
+}
+
+.ingredients{
+    font-size: 20px;
+}
+
+.menu{
+    display: flex;
+    padding: 30px;
+}
+
+.contact-form{
+display:flex;
+justify-content:center;
+padding:20px;
+}
